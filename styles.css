@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+.cover h1{
+    font-family: "Charm", serif;
+    font-weight:600;
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h2 span{
+    text-decoration: underline;
+}
+
+.cover{
+    text-align: center;
+    height:50vh;
+    width:100%;
+    /* display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; */
+    margin:10rem 2rem 0 2rem;
+    color: rgb(45, 45, 45);
+    border-bottom: .05rem solid rgba(182, 182, 182, 0.45);;
+}
+
+.my-photo{
+    border-radius: 50%;
+    height:10rem;
+    width:10rem;
+}
+
+.content{
+    text-align: justify;
+}
+
+.skills-img{
+    height:12rem;
+    width:10rem;
+    float:left;
+    margin:0 1rem;;
+}
+
+.contact-me{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
